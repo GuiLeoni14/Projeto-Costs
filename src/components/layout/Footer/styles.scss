@@ -18,8 +18,15 @@ footer{
                             height: 5rem;
                             cursor: pointer;
                             transition: transform .3s;
+                            path{
+                                color: #FFF;
+                                transition: color .3s;
+                            }
                             &:hover{
                                 transform: scale(1.1);
+                                path{
+                                    color: #ffbb00
+                                }
                             }
                         }
                         &:not(:first-child){
@@ -30,6 +37,7 @@ footer{
             }
             p{
                 margin-top: 2rem;
+                color: #FFF;
                 font-size: 2rem;
                 span{
                     font-weight: bold;

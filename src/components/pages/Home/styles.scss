@@ -1,3 +1,36 @@
 .s-home{
-    padding-top: 10rem;
+    padding-top: 14rem;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .main-home{
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    font-size: 3.5rem;
+                    margin-bottom: 1.5rem;
+                    span{
+                        color: #ffbb33;
+                        background-color: #111;
+                        padding: 0.5rem;
+                        border-radius: 0.5rem;
+                    }
+                }
+                p{
+                    font-size: 1.5rem;
+                    margin-bottom: 1.5rem;
+                    color: #7b7b7b;
+                }
+                img{
+                    width: 100%;
+                    max-width: 35rem;
+                    margin: 2rem 0rem;
+                }
+            }
+        }
+    }
 }
