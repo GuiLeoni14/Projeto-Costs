@@ -1,0 +1,41 @@
+footer{
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: #222;
+    .container{
+        .main_footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            nav{
+                ul{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    li{
+                        svg{
+                            width: 5rem;
+                            height: 5rem;
+                            cursor: pointer;
+                            transition: transform .3s;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                        }
+                        &:not(:first-child){
+                            margin-left: 4rem;
+                        }
+                    }
+                }
+            }
+            p{
+                margin-top: 2rem;
+                font-size: 2rem;
+                span{
+                    font-weight: bold;
+                    color: #ffbb00;
+                }
+            }
+        }
+    }
+}

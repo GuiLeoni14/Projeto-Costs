@@ -1,0 +1,33 @@
+header{
+    height: 10rem;
+    background-color: #222;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            ul{
+                display: flex;
+                justify-content: space-between;
+                li{
+                    a{
+                        transition: color .3s;
+                        color: #FFF;
+                        font-size: 1.6rem;
+                        &:hover{
+                            color: #ffbb33;
+                        }
+                    }
+                    &:not(:first-child){
+                        margin-left: 4rem;
+                    }
+                }
+            }
+        }
+    }
+}

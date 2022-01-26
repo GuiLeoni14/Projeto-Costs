@@ -4,3 +4,15 @@
     padding: 0 1.5rem;
     margin: 0 auto;
 }
+
+.min_height {
+    min-height: 75vh;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+}

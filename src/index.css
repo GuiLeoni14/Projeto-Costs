@@ -6,13 +6,10 @@
     outline: none;
     list-style: none;
     text-decoration: none;
-    color: #111;
+    color: #FFF;
     font-family: 'Inter', sans-serif;
 }
 
-img{
-    max-width: 100%;
-}
 html{
     font-size: 62.5%;
 }
