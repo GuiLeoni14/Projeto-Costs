@@ -1,0 +1,26 @@
+.btn{
+    font-size: 1.4rem;
+    padding: 1rem 1.5rem;
+    transition: all .3s;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn_link{
+    background-color: #222;
+    color: #FFF;
+    &:hover{
+        color: #FFBB33;
+        transform: scale(1.1);
+    }
+}
+
+.btn_submit{
+    background-color: #FFBB33;
+    color: #111;
+    &:hover{
+        color: #FFF;
+        background-color: #111;
+        transform: scale(1.1);
+    }
+}

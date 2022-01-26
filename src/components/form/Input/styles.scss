@@ -1,0 +1,28 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    label{
+        font-size: 2rem;
+        margin-bottom: 0.6rem;
+        font-weight: bold;
+    }
+    input{
+        font-size: 1.6rem;
+        padding: 0.7rem;
+        border: 1px solid #111;
+        background-color: #eeeeee;
+        border-radius: 0;
+        transition: all .2s;
+        &::placeholder{
+            color: #7b7b7b;
+        }
+        &:focus{
+            background-color: #ffbb3331;
+            border-color: #FFBB33;
+        }
+        &:hover{
+            border-color: #FFBB33;
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import P from 'prop-types';
-import style from './styles.scss';
+import './styles.scss';
 import { Link } from 'react-router-dom';
 export function LinkButton({ to, textButton }) {
     return (
