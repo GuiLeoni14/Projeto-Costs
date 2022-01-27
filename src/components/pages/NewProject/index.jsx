@@ -14,7 +14,7 @@ export default function NewProject() {
             },
             body: JSON.stringify(project),
         });
-        navigate('/projects', { message: 'Projeto criado com sucesso' });
+        navigate('/projects', { state: { message: 'Projeto criado com sucesso!' } });
     }
     return (
         <section className="s_new_project">
