@@ -1,14 +1,12 @@
 import P from 'prop-types';
 import './styles.scss';
 export default function Select({ text, name, options, handleOnChange, value }) {
-    console.log(options);
+    console.log('Value:' + value);
     return (
         <div className="form_control">
             <label htmlFor={name}>{text}:</label>
-            <select name={name} id={name}>
-                <option disabled selected>
-                    Selecione uma opção:
-                </option>
+            <select value={value || ''} name={name} id={name} onChange={handleOnChange}>
+                <option disabled>Selecione uma opção:</option>
                 {options.length > 0 &&
                     options.map((categoria) => (
                         <option value={categoria.id} key={categoria.id}>
@@ -25,5 +23,5 @@ Select.propTypes = {
     name: P.string.isRequired,
     options: P.array,
     handleOnChange: P.func,
-    value: P.func,
+    value: P.string,
 };

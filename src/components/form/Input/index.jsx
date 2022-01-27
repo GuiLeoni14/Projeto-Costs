@@ -22,5 +22,5 @@ Input.propTypes = {
     name: P.string.isRequired,
     placeholder: P.string.isRequired,
     handleOnChange: P.func,
-    value: P.func,
+    value: P.string,
 };
