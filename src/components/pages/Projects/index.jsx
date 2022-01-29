@@ -9,6 +9,7 @@ import ProjectCard from '../../project/ProjectCard';
 export default function Projects() {
     const [projects, setProjects] = useState([]);
     const [removeLoading, setRemoveLoading] = useState(false);
+    const [projectMessage, setProjectMessage] = useState('');
     const location = useLocation();
     let message = '';
     if (location.state) {
@@ -24,6 +25,20 @@ export default function Projects() {
         };
         fetchApi();
     }, []);
+    const handleRemoveProject = async (idProject) => {
+        console.log('Chamou handle Remove');
+        fetch(`http://localhost:5000/projects/${idProject}`, {
+            method: 'DELETE',
+        })
+            .then((resp) => resp.json())
+            .then((data) => {
+                setProjects(projects.filter((projects) => projects.id !== idProject));
+                setProjectMessage('Projeto removido com sucesso!');
+            })
+            .catch((err) => {
+                console.log('Erro ao deletart' + err);
+            });
+    };
     return (
         <section className="s_projects">
             <Container>
@@ -33,6 +48,7 @@ export default function Projects() {
                         <LinkButton to="/newproject" textButton="Novo Projeto" />
                     </div>
                     {message && <Message type="success" textMessage={message} />}
+                    {projectMessage && <Message type="success" textMessage={projectMessage} />}
                     <div className="projects">
                         {projects.length > 0 &&
                             projects.map((project) => (
@@ -42,6 +58,7 @@ export default function Projects() {
                                     budget={project.budget}
                                     category={project.category.name}
                                     name={project.name}
+                                    handleRemove={handleRemoveProject}
                                 />
                             ))}
                         {!removeLoading && <Loading />}

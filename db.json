@@ -1,17 +1,6 @@
 {
   "projects": [
     {
-      "name": "Jhonatam",
-      "budget": "10000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
       "name": "Mario",
       "budget": "100",
       "category": {
@@ -21,17 +10,6 @@
       "cost": 0,
       "services": [],
       "id": 2
-    },
-    {
-      "name": "Api Testes",
-      "budget": "1250",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
     }
   ],
   "categories": [
