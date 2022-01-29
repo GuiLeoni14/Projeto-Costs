@@ -1,5 +1,8 @@
 .message{
-    width: 100%;
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 1.8rem;
     padding: 1rem;
     border: 0.1rem solid #000;
