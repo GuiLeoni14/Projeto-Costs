@@ -3,9 +3,11 @@ import Input from '../../Form/Input';
 import Select from '../../form/select';
 import P from 'prop-types';
 import { useEffect, useState } from 'react';
+import './styles.scss';
 export default function ProjectForm({ btnText, handleSubmit, projectData }) {
     const [categories, setCategories] = useState([]);
     const [project, setProject] = useState(projectData || {});
+    console.log(projectData);
     useEffect(() => {
         const fetchApi = async () => {
             const response = await fetch('http://localhost:5000/categories');
@@ -16,7 +18,7 @@ export default function ProjectForm({ btnText, handleSubmit, projectData }) {
     }, []);
     const submit = (e) => {
         e.preventDefault();
-        console.log(project);
+        // console.log(project);
         handleSubmit(project);
     };
     const handleChange = (e) => {

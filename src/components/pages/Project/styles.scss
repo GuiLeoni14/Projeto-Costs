@@ -1,0 +1,38 @@
+.s_project {
+    padding-top: 15rem;
+    min-height: 75vh;
+    .container{
+        .main_project{
+            .project{
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: column;
+                border-bottom: 0.1rem solid #111;
+                padding-bottom: 2rem;
+                .text{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 2rem;
+                    h1{
+                        background-color: #111;
+                        color: #ffbb33;
+                        padding: 0.8rem;
+                        font-size: 3rem;
+                    }
+                }
+                ul{
+                    margin-top: 2rem;
+                    li{
+                        &:not(:first-child){
+                            margin-top: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
