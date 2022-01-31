@@ -33,6 +33,20 @@
                     }
                 }
             }
+            .service{
+                padding-top: 3rem;
+                .main_service_form{
+                    display: flex;
+                    flex-direction: column;
+                    border-bottom: 0.1rem solid #111;
+                    padding-bottom: 2rem;
+                    .title{
+                        width: 100%;
+                        justify-content: space-between;
+                        display: flex;
+                    }
+                }
+            }
         }
     }
 }

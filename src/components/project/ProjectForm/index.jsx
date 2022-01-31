@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import './styles.scss';
 export default function ProjectForm({ btnText, handleSubmit, projectData }) {
     const [categories, setCategories] = useState([]);
-    const [project, setProject] = useState(projectData || {});
+    const [project, setProject] = useState(projectData || {}); // não é possível mudar o começo do dado recebido pelo state
     console.log(projectData);
     useEffect(() => {
         const fetchApi = async () => {

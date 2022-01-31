@@ -1,14 +1,21 @@
 {
   "projects": [
     {
-      "name": "Mario",
-      "budget": "1289",
+      "name": "Eletron",
+      "budget": "1286",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "3",
+        "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 999,
+      "services": [
+        {
+          "name": "HeimerBot",
+          "cost": "999",
+          "description": "Um teste para o serviço",
+          "id": "8d9c0f66-ddb6-4444-8b85-5364d862e2eb"
+        }
+      ],
       "id": 2
     }
   ],
