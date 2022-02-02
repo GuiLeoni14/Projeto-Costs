@@ -9,8 +9,7 @@ Projeto desenvolvido no curso Hora de Codar ministrado pelo Matheus Batisti, ten
 + O backend foi desenvolvido com a biblioteca json-server.
 
 ## Aprendizado
-+ Com esse projeto eu aprendi muito conteúdo relacionado a React.js, dentre eles posso destacar os hooks(useEffet(),useState()), que a princípio era uma novidade para mim,
-mas as vantagens que eles nos dão com relação ao desenvolvimento é sensacional, o ganho de produtividade é imenso.
++ Com esse projeto eu aprendi muito conteúdo relacionado a React.js, dentre eles posso destacar os hooks(useEffet(),useState()), que a princípio era uma novidade para mim, mas as vantagens que eles nos dão com relação ao desenvolvimento é sensacional, o ganho de produtividade é imenso.
 
 ## Tecnologias usadas:
 
