@@ -1,22 +1,64 @@
 {
   "projects": [
     {
-      "name": "Eletron",
-      "budget": "1286",
+      "name": "Teste",
+      "budget": "1200",
       "category": {
         "id": "3",
         "name": "Design"
       },
-      "cost": 999,
+      "cost": 343,
       "services": [
         {
-          "name": "HeimerBot",
-          "cost": "999",
+          "name": "Contratar",
+          "cost": "122",
           "description": "Um teste para o serviço",
-          "id": "8d9c0f66-ddb6-4444-8b85-5364d862e2eb"
+          "id": "d8a7ecd8-5b2a-4c83-b93f-6639274f3aa1"
+        },
+        {
+          "name": "Contratar",
+          "cost": "122",
+          "description": "Um teste para o serviço",
+          "id": "0db254c9-a34d-4e02-803d-4268863106d9"
+        },
+        {
+          "name": "Guilherme",
+          "cost": "45",
+          "description": "534534",
+          "id": "db71051e-37e6-4dc9-9de1-e352ba8a943c"
+        },
+        {
+          "name": "Guilherme",
+          "cost": "54",
+          "description": "Um teste para o serviço",
+          "id": "ace3606a-2a63-424d-a49d-6a429f15b883"
         }
       ],
-      "id": 2
+      "id": 3
+    },
+    {
+      "name": "Teste",
+      "budget": "43654",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 440,
+      "services": [
+        {
+          "name": "Guilherme",
+          "cost": "434",
+          "description": "Um teste para o serviço",
+          "id": "dd327e35-0a6a-474f-b765-a855b4962bcb"
+        },
+        {
+          "name": "Guilherme",
+          "cost": "6",
+          "description": "Um teste para o serviço",
+          "id": "eb2eed6e-845d-4526-81d4-36547bca0e83"
+        }
+      ],
+      "id": 4
     }
   ],
   "categories": [

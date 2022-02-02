@@ -11,6 +11,7 @@ export default function Input({ type, text, name, placeholder, handleOnChange, v
                 placeholder={placeholder}
                 onChange={handleOnChange}
                 value={value}
+                required
             />
         </div>
     );

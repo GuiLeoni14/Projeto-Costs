@@ -46,6 +46,13 @@
                         display: flex;
                     }
                 }
+                .main_service_card{
+                    .item{
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 1.5rem;
+                    }
+                }
             }
         }
     }
