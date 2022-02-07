@@ -1,7 +1,7 @@
 # Projeto-Costs
 Projeto desenvolvido no curso Hora de Codar ministrado pelo Matheus Batisti, tendo como objetivo: treinar os conceitos aprendidos sobre React.js
 
-> Status: Developing ⚠️
+> Status: Completed ⚠️
 
 ## Objetivo:
 + Desenvolver uma aplicação em React.js, para treinar os conceitos dessa biblioteca.
